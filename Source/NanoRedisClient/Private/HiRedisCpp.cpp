@@ -1,4 +1,6 @@
-﻿#include "HiRedisCpp.h"
+﻿// Copyright 2022 Danyang Chen https://github.com/DAN-AND-DNA
+
+#include "HiRedisCpp.h"
 #include "hiredis.h"
 #if PLATFORM_WINDOWS
 #include "Windows/AllowWindowsPlatformTypes.h"

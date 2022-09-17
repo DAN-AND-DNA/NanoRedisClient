@@ -1,4 +1,6 @@
-﻿#pragma once
+﻿// Copyright 2022 Danyang Chen https://github.com/DAN-AND-DNA
+
+#pragma once
 
 #include "CoreMinimal.h"
 #include "ReplyValue.h"

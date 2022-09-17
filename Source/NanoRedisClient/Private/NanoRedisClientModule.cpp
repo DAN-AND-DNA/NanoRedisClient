@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2022 Danyang Chen https://github.com/DAN-AND-DNA
 
 #include "NanoRedisClientModule.h"
 

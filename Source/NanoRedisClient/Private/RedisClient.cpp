@@ -1,4 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Copyright 2022 Danyang Chen https://github.com/DAN-AND-DNA
 
 #include "RedisClient.h"
 #include "RedisPipeline.h"
