@@ -1,8 +1,15 @@
 # NanoRedisClient
-
+![ddd](./imgs/nano_redis.png)  
 With this plugin you can connect to an external redis server to have powerful data storage or caching capabilities  
 
 You can come to me with any questions and suggestions: https://github.com/DAN-AND-DNA/UE_NanoRedisClient (Updated 2022/09/18)
+
+## example
+![ddd](./imgs/p1.png)
+![ddd](./imgs/p2.png)
+![ddd](./imgs/p3.png)
+![ddd](./imgs/p4.png)
+![ddd](./imgs/p5.png)
 
 ## Features
 
