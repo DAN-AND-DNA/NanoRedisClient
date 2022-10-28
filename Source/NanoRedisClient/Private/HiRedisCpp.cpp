@@ -230,6 +230,18 @@ bool FHiRedisCpp::HGet(const FString& Key, const FString& MapKey, const int MaxS
 	return true;
 }
 
+bool FHiRedisCpp::HGetAll(const FString& Key, const int MaxSecond, FReplyValue& Value, FString& Err) {
+	if (this->RedisCtx) {
+		redisSetTimeout(this->RedisCtx, timeval{MaxSecond, 0});
+	}
+	
+	const FString StrCommand = FString::Printf(TEXT("HGETALL %s"), *Key);
+	if (!ExecCommand(StrCommand,Value,Err)) {
+		return false;
+	}
+	return true;
+}
+
 bool FHiRedisCpp::SAdd(const FString& Key, const TArray<FString>& Values, const int MaxSecond, FString& Err) {
 	FReplyValue ReplyValue;
 	if (this->RedisCtx) {
