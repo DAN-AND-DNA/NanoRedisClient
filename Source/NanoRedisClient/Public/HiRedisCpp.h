@@ -46,6 +46,9 @@ public:
 	// hget
 	bool HGet(const FString& Key, const FString& MapKey, const int MaxSecond, FReplyValue& Value, FString& Err);
 
+	// hgetall
+	bool HGetAll(const FString& Key, const int MaxSecond, FReplyValue& Value, FString& Err);
+
 	// sadd
 	bool SAdd(const FString& Key, const TArray<FString>& Values, const int MaxSecond, FString& Err);
 
